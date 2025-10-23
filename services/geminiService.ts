@@ -1,6 +1,6 @@
 import { GoogleGenAI, Modality } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyC5qQ5S3qCgqN9Au0jvGjXx3kr44AbZx50' as string });
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyD-VdvEJWD6lOzsWtbRKH60rLbhxQ_T9Mo' as string });
 
 interface Base64Image {
     base64: string;
