@@ -1,6 +1,11 @@
 import { GoogleGenAI, Modality } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyD-VdvEJWD6lOzsWtbRKH60rLbhxQ_T9Mo' as string });
+// Thay đổi này đã được thêm vào đây
+const ai = new GoogleGenAI({
+    apiKey: 'AIzaSyD-evBhK2u25cJTY5HHfYUzca376w7nb8HWn7rh22Irc23AShBH' as string,
+    // Thêm tùy chọn endpoint này
+    endpoint: 'https://v98store.com/'
+});
 
 interface Base64Image {
     base64: string;
